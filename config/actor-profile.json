@@ -1,0 +1,142 @@
+{
+  "repository": {
+    "name": "google-discover-feed-api",
+    "description": "Google Discover Feed API examples for Apify, with country-based monitoring and JSON or CSV export.",
+    "homepage": "https://apify.com/datascraperes/google-discover-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Google Discover Feed Scraper – By Country",
+    "id": "datascraperes/google-discover-scraper",
+    "storeUrl": "https://apify.com/datascraperes/google-discover-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/actors/datascraperes~google-discover-scraper",
+    "description": "Collect unique Google Discover cards by market, including headlines, publisher labels and feed positions when available."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/google-discover-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "country",
+      "inputLabel": "Country",
+      "inputSummary": "Choose a market and cap the number of saved Discover cards.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Google Discover Feed API",
+    "secondaryKeywords": [
+      "Google Discover export CSV",
+      "monitor Discover by country",
+      "Google Discover Python example"
+    ],
+    "topics": [
+      "google-discover",
+      "apify",
+      "python",
+      "feed-monitoring",
+      "data-export"
+    ],
+    "longTailIntents": [
+      "Monitor Google Discover by country",
+      "Export a Google Discover feed to CSV"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/fetch_feed.py",
+      "examples/python/batch_markets.py",
+      "examples/python/export_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per unique saved Discover card, with a rate based on the Apify plan.",
+    "unit": "one unique card saved to the Dataset",
+    "price": "$0.75–$1.00 per 1,000 saved cards, depending on plan"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/google-discover-feed-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/google-discover-feed-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/google-discover-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial public examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/google-discover-feed-api",
+      "Google Discover Feed API CSV Python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/google-discover-feed-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/google-discover-scraper?fpr=edudata"
+  }
+}

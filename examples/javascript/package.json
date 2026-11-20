@@ -1,0 +1,6 @@
+{
+  "name": "google-discover-feed-api-example",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=20"}
+}
